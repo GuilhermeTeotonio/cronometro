@@ -1,0 +1,66 @@
+.imagem-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.botoes-container {
+  display: flex;
+  justify-content:flex-start;
+  margin: 30px;
+}
+
+#botao-iniciar,
+#botao-parar,
+#botao-zerar {
+  margin: 0 10px;
+}
+
+#tempo-decorrido {
+  font-size: 6rem;
+  font-weight: bold;
+  color: #ff69b4;
+  text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
+  margin: 50px 40px;
+}
+
+.cronometro {
+  margin-top: 20px; /* adiciona margem acima do cronômetro */
+}
+
+button {
+  background-color: #ff69b4;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
+  text-shadow: 0px 0px 10px #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #ff69b4;
+  box-shadow: 0px 0px 10px #ff69b4, 0px 0px 10px #ff69b4, 0px 0px 10px #ff69b4;
+  text-shadow: none;
+}
+.titulo {
+  text-align: left;
+  font-size: 4rem;
+  font-weight: bold;
+  color: #ff69b4;
+  text-shadow: 0px 0px 10px #fff, 0px 0px 10px #fff, 0px 0px 10px #fff;
+  margin: 50px 40px;
+}
